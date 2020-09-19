@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3010;
 const logger = require("morgan");
 let app = express();
 var indexRouter = require("./src/routes/indexRoutes");
-var authRouter = require("./src/routes/authRoutes");
 var geoCodingRouter = require("./src/routes/geoCodingRoutes");
 const cors = require("cors");
 
